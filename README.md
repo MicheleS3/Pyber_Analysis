@@ -19,5 +19,5 @@ From the summary data frame, we can see that there is a trend between how popula
 
 With the multiple-line chart, we can compare total fares by city type over a period of five months. The number of rides peak at the end of February and fluctuates during the month of March. All the graphs tend to follow the same trend throughout these months, except for the trend in suburban cities, where we see a sharper increase during the month of April. 
 
-https://github.com/MicheleS3/Pyber_Analysis/blob/main/analysis/PyBer_fare_summary.png?raw=true
+!https://github.com/MicheleS3/Pyber_Analysis/blob/main/analysis/PyBer_fare_summary.png?raw=true
 
