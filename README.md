@@ -11,13 +11,19 @@ The goal of this analysis is the create a multi-line graph that shows the total 
 # Results
 
 From the summary data frame, we can see that there is a trend between how populated a city is and the total number of rides, which directly affects the total number of drivers, total fare, and average fares by ride and driver.  Based on the summary data the total number of rides, drivers, and fares decrease as the cities become further from urbanized areas, the average fare per ride and per driver seems to increase.  This can be explained by the accessibility of PyBer in rural areas.  Having less drivers in rural areas could lead to higher average fares per ride.
-
-|          |'Total Rides' | 'Total Drivers' | 'Total Fares' | 'Average Fare per Ride' | 'Average Fare per Driver'|
-|'Rural'   |125           |78               | $4,327.93     | $34.62                  | $55.49                   |
-|'Suburban'|625           |490              | $19,356.33    | $30.97                  | $39.50                   |
-|'Urban'   |1,625         |2,405            | $39,854.38    | $24.53                  | $16.57                   |
+|   |Total Rides   |Total Drivers   |Total Fares   |Average Fare per Ride   |Average Fare per Driver   |
+|---|---|---|---|---|---|
+|Rural   |125   | 78  |$4,327.93   |$34.62   |$55.49   |
+|Suburban   |625   |490   |$19,356.33   |$30.97   |$39.50   |
+|Urban   |1,625   |2,405   |$39,854.38   |$24.53   |$16.57   |
 
 With the multiple-line chart, we can compare total fares by city type over a period of five months. The number of rides peak at the end of February and fluctuates during the month of March. All the graphs tend to follow the same trend throughout these months, except for the trend in suburban cities, where we see a sharper increase during the month of April. 
 
-! https://github.com/MicheleS3/Pyber_Analysis/blob/main/analysis/PyBer_fare_summary.png?raw=true
+![Total Fare by City Type](https://github.com/MicheleS3/Pyber_Analysis/blob/main/analysis/PyBer_fare_summary.png?raw=true)
+
+# Summary
+
+Since the total fare by city type seems to increase during the month of April in suburban cities, the company should research as to what causes this increase, especially because the total fare decreases for other types of cities.
+Additionally, we know that average fare per ride and driver is higher when there are less drivers. With this information, the company can influence ride-share prices by limiting or increasing the number of drivers during a certain time to achieve its profit goal.
+Lastly, the average fare per ride shows a gradual increase from more populated cites to less populated cities. However, the average fare per drive increases drastically when following the same trend. This indicates that the number of drivers may be exponentially lower than expected. The company may want to allocate more drivers to rural areas to optimize its profits.
 
